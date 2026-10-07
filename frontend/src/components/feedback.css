@@ -1,0 +1,159 @@
+/* Expanded container for a larger feedback page */
+.feedback-container {
+  max-width: 800px;
+  /* Increased width */
+  padding: 40px;
+  /* Extra padding for a more spacious layout */
+  margin: 60px auto;
+  background-color: #f9f9fc;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* View Solutions button styling */
+.view-solutions-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #433878;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-solutions-button:hover {
+  background-color: #7e60bf;
+}
+
+/* Question selection buttons in a centered, grid-like layout */
+/* Question selection buttons in a centered, grid-like layout */
+.question-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 25px;
+
+
+}
+
+
+/* Style for the active or selected question button */
+.question-button.active,
+.question-button.selected {
+  background-color: #433878;
+  /* Display selected button in #433878 */
+  color: #fff;
+}
+
+/* Toggle buttons for user and correct solutions */
+.solution-toggle-button {
+  padding: 8px 12px;
+  background-color: #b2acac;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.solution-toggle-button:hover {
+  background-color: #7e60bf;
+  color: #fff;
+}
+
+/* Active solution button */
+.solution-toggle-button.active {
+  background-color: #433878;
+  color: #fff;
+}
+
+/* Enhanced experience and feedback styling */
+.feedback-options label {
+  font-size: 16px;
+  margin: 0 8px;
+  color: #333;
+}
+
+.feedback-options input[type="radio"] {
+  margin-right: 4px;
+}
+
+/* Center the Feedback Page heading */
+.feedback-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  /* Center align */
+  font-size: 28px;
+  /* Slightly larger for emphasis */
+  font-weight: bold;
+}
+
+/* Updated question details styling */
+.session-item {
+  margin-top: 20px;
+}
+
+.session-item h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  /* Center align the question title */
+}
+
+.session-item p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+  text-align: center;
+  /* Center align descriptions and test cases */
+}
+
+/* Total test cases passed display */
+.test-cases-passed {
+  font-size: 16px;
+  color: #28a745;
+  /* Green color to indicate success */
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #7e60bf;
+  color: #fff;
+}
+
+.navbar-left {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-right {
+  font-size: 1rem;
+}
+.feedback-options {
+  display: flex;
+  gap: 1rem; /* Adjust spacing between options as needed */
+  justify-content: center; /* Center the options horizontally */
+  align-items: center;
+}
+
+.feedback-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feedback-label input {
+  margin-right: 0.5rem; /* Space between radio button and text */
+}

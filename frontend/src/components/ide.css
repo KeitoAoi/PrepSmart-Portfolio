@@ -1,0 +1,211 @@
+.app {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .content {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .heading {
+    background-color: #6c62b9;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+  }
+
+  .question {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    height: 80vh;
+    overflow-y: auto;
+  }
+
+  .editor {
+    box-shadow: 0px 0px 10px hsla(0, 77%, 76%, 0.1);
+    flex: 2;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    height: 80vh;
+    overflow-y: auto;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 1em;
+    color: rgb(244, 237, 237);
+  }
+
+  h2, h3 {
+    text-align: left;
+    color: rgb(13, 12, 12);
+  }
+  p{
+    text-align: left;
+    color: rgb(13, 12, 12);
+  }
+
+  .buttons {
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 1px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  .heading button {
+    background-color: #f51127;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+
+  .buttons p {
+    text-align: left;
+    flex:1;
+    margin: 0;
+  }
+  .buttons button {
+    background-color: #6c62b9;
+    color: white;
+    border: 2px solid #ecf1f2;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .buttons button:hover {
+    background-color: #4b1c8a; /* Lighter color on hover */
+}
+
+  pre {
+    background-color: #6c62b9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .results {
+    text-align: left;
+    background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    height:40;
+  }
+  .rtime h2 {
+    background-color: #6c62b9;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+.profile-dropdown {
+  position: absolute;
+  top: 4rem; /* Adjust this as needed */
+  min-width: 8rem; /* Reduced width */
+  background-color: #7360bf;
+  color: white;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem; /* Reduced padding */
+  z-index: 50; /* Ensures it stays on top */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-dropdown hr {
+  margin: 0.3rem 0; /* Reduced margin */
+}
+
+.profile-dropdown div {
+  margin: 0.3rem 0; /* Reduced margin for individual items */
+}
+
+
+.difficulty-easy {
+  background-color: #d4edda; /* Light green */
+  color: #155724; /* Dark green */
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.difficulty-medium {
+  background-color: #fff3cd; /* Light yellow */
+  color: #856404; /* Dark yellow */
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.difficulty-hard {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24; /* Dark red */
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+.SpchBtnImage {
+  width: 25px; /* Set the image width */
+  height: 25px; /* Set the image height */
+  object-fit: cover; /* Ensure the image maintains aspect ratio */
+}
+
+.questions-queue {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+}
+
+.queue-numbers {
+  display: flex;
+  justify-content: center; /* Centers the numbers horizontally */
+  gap: 10px; /* Adds space between each number */
+}
+
+.queue-number {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.queue-number.current {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+.arrow {
+  background-color: transparent;
+  color:#000;
+  padding: 0px ;
+  gap: 15px;
+}
+.arrow:hover {
+  background-color: transparent;
+  color:#000;    
+}
